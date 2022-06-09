@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><search><entry><title>Hello Blog</title><url>/post/hello-blog/</url><categories/><tags><tag>say hi</tag></tags><content type="html"> Hi 你好，首次发布，记录一下。
+采用Hugo (主题: Next ) + Github Page + Github Actions 构建。
+未来将分享一些技术类，生活类等文章。
+加油！blog~</content></entry><entry><title>关于我</title><url>/about.html</url><categories/><tags/><content type="html"/></entry><entry><title>github stats</title><url>/post/github-stats/</url><categories/><tags/><content type="html"/></entry></search>
