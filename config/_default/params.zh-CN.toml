@@ -1,0 +1,37 @@
+Description = "欢迎来到凡梦星尘空间站，个人主要专注于程序开发，产品，售前及大数据解决方案。"
+Keywords =  "博客, 程序员, 思考, 读书, 笔记, 技术, 分享"
+Subtitle = "(^_^)"
+AuthorImg = "/img/avatar.jpg"
+AuthorName = "roiwk"
+Introduce = "phper"
+DateFormat = "2006-01-02"
+YearFormat = "2006年"
+MonthFormat = "01-02"
+
+ArticleDeclContent = "本博客文章除特别声明外，均采用 <a href='https://creativecommons.org/licenses/by-nc-sa/3.0/' target='_blank' style='text-decoration: underline;'>CC BY-NC-SA 3.0</a>许可协议，转载请注明出处！"
+
+[Footer]
+  StorageLink = "https://gitee.com/roiwk/blog"
+  StorageName = "Gitee"
+  ICPLink = "https://github.com/roiwk/blog"
+  ICPNo = "Github"
+  # ICPLink = "http://beian.miit.gov.cn"
+  # ICPNo = "粤 ICP 备 18047355 号"
+
+[[Socials]]
+  Name = "GitHub"
+  Icon = "github"
+  URL = "https://github.com/roiwk"
+
+[[Socials]]
+  Name = "Gitee"
+  Icon = "user"
+  URL = "https://gitee.com/roiwk"
+
+[[Links]]
+  Name = "阮一峰"
+  Permalink = "https://www.ruanyifeng.com/blog/"
+
+[[Links]]
+  Name = "廖雪峰"
+  Permalink = "https://www.liaoxuefeng.com/"

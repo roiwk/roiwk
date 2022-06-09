@@ -1,0 +1,3 @@
+[submodule "themes/next"]
+	path = themes/next
+	url = https://gitee.com/lisenhui/hugo-theme-next.git
