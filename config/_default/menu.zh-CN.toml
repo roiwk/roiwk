@@ -10,7 +10,7 @@
   Weight = 2
 [[Main]]
   Name = "关于我"
-  Pre = "user-circle-o"
+  Pre = "user"
   URL = "about.html"
   Weight = 3
 # [[Main]]
