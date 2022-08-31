@@ -8,10 +8,11 @@ keywords = [
 ]
 tags = [
     "docker",
-    "introduction",
+    "primer",
 ]
 categories = [
-    "introduction",
+    "docker",
+    "primer",
 ]
 draft = false
 +++
