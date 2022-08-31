@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><search><entry><title>Hello Blog</title><url>/post/hello-blog/</url><categories/><tags><tag>say hi</tag></tags><content type="html"> Hi 你好，首次发布，记录一下。
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><search><entry><title>Hello Blog</title><url>https://www.roiwk.cn/post/hello-blog/</url><categories><category>note</category></categories><tags><tag>introduction</tag></tags><content type="html"> Hi 你好，首次发布，记录一下。
 采用Hugo (主题: Next ) + Github Page + Github Actions 构建。
-未来将分享一些技术类，生活类等文章。
-加油！blog~</content></entry><entry><title>关于我</title><url>/about.html</url><categories/><tags/><content type="html"> 联系方式 ↓</content></entry><entry><title>友盟openAPI的php实现</title><url>/post/umeng-openapi/</url><categories><category>php</category></categories><tags><tag>php</tag><tag>umeng</tag><tag>composer</tag></tags><content type="html">
+未来将分享一些文章。
+加油！blog~</content></entry><entry><title>关于我</title><url>https://www.roiwk.cn/about.html</url><categories/><tags/><content type="html"> 联系方式 ↓</content></entry><entry><title>友盟openAPI的php实现</title><url>https://www.roiwk.cn/post/umeng-openapi/</url><categories><category>php</category></categories><tags><tag>php</tag><tag>umeng</tag><tag>composer</tag></tags><content type="html">
 简介 一个简单,好用的友盟open-api的包&hellip; 封装了友盟官方open-api的sdk, 官方sdk版本1.1.4
 umeng官方文档 安装 composer require roiwk/umeng-open-api 快速使用 例子: 获取应用的累计用户数 此示例的umeng文档 require_once 'path/to/autoload.php'; use Roiwk\UmengOpenAPI\Factory; // 工厂类中，有具体的小程序，app等应用类型，详见源码即可 $app = Factory::umini([ 'api_key' => 'your key', 'api_secret' => 'your secret', 'app_key' => 'your APPKEY', // 指定 API 调用返回结果的类型：json(default)/array/object/raw(resultObject) 'response_type' => 'json', ]); // 参数1:api名 (com.umeng.umini:umeng.umini.getTotalUser-1, 传"getTotalUser" 即可) // 参数2: 请求参数数组 $app->get('getTotalUser', [ 'fromDate' => '2020-11-01', 'toDate' => '2020-11-01', 'pageIndex' => 1, 'pageSize' => 10, ]); 项目缘由 友盟官方的sdk, 在已有的composer项目中,用起来很不方便, 所以封装一个用.
 贡献 欢迎提交PR
-开源许可协议 - MIT MIT LICENSE - Gitee Storage MIT LICENSE - Github Storate</content></entry><entry><title>Docker 入门</title><url>/post/docker-introduction/</url><categories><category>introduction</category></categories><tags><tag>docker</tag><tag>introduction</tag></tags><content type="html">
+开源许可协议 - MIT MIT LICENSE - Gitee Storage MIT LICENSE - Github Storate</content></entry><entry><title>Docker 入门</title><url>https://www.roiwk.cn/post/docker-introduction/</url><categories><category>docker</category><category>primer</category></categories><tags><tag>docker</tag><tag>primer</tag></tags><content type="html">
 Docker 入门 Docker 一. 是什么 1.Docker概念与简要历史 Docker 是一个开源的应用容器引擎，你可以将其理解为一个轻量级的虚拟机， 开发者可以打包他们的应用以及依赖包到一个可移植的容器中，然后发布到任何流行的 Linux 机器上。
 Docker 最初是 dotCloud 公司创始人 Solomon Hykes 在法国期间发起的一个公司内部项目，它是基于 dotCloud 公司多年云服务技术的一次革新， 并于 2013 年 3 月以 Apache 2.0 授权协议开源，主要项目代码在 GitHub 上进行维护。Docker 项目后来还加入了 Linux 基金会，并成立推动 开放容器联盟（OCI）。
 Docker 自开源后受到广泛的关注和讨论，至今其 GitHub 项目已经超过 4 万 6 千个星标和一万多个 fork。 甚至由于 Docker 项目的火爆，在 2013 年底，dotCloud 公司决定改名为Docker。 Docker 最初是在 Ubuntu 12.04 上开发实现的；Red Hat 则从 RHEL 6.5 开始对Docker 进行支持；Google 也在其 PaaS 产品中广泛应用 Docker。
