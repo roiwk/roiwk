@@ -1,8 +1,8 @@
 +++
 author = "roiwk"
-title = "关于我选择Manjaro作为我的桌面系统 第一集"
+title = "关于我选择Manjaro作为桌面系统 第一集"
 date = "2022-08-31"
-description = "关于我选择Manjaro作为我的桌面系统 第一集"
+description = "关于我选择Manjaro作为桌面系统 第一集"
 tags = [
     "Manjaro", "Plasma Desktop",
 ]
@@ -19,7 +19,7 @@ draft = false
 +++
 
 
-# 关于我选择Manjaro作为我的桌面系统 第一集
+# 关于我选择Manjaro作为桌面系统 第一集
 
 ## 起因
 
