@@ -30,6 +30,8 @@ draft = false
   </a>
 </p>
 
+![Packagist Downloads](https://img.shields.io/packagist/dt/roiwk/umeng-open-api)
+
 # 简介
 
 一个简单,好用的友盟open-api的包...
