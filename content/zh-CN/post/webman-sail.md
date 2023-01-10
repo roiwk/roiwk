@@ -1,13 +1,13 @@
 +++
 author = "roiwk"
-title = "Webman-sail webman与docker开发环境交互"
+title = "webman与docker开发环境交互"
 description = "webman与docker开发环境交互的命令行工具。"
 date = "2023-01-10"
 keywords = [
     "webman",
     "webman-sail",
-    "docker compose"
-    "docker"
+    "docker compose",
+    "docker",
 ]
 tags = [
     "php",
@@ -21,19 +21,23 @@ categories = [
 draft = false
 +++
 
-<p>
- <a href="https://gitee.com/roiwk/webman-sail">
+
+<figure class="half">
+  <a href="https://gitee.com/roiwk/webman-sail">
     <img src="https://img.shields.io/badge/roiwk/webmanSail-C71D23?logo=gitee" alt="gitee" title="roiwk/webman-sail"/>
   </a>
-
- <a href="https://github.com/roiwk/webman-sail">
+  <a href="https://github.com/roiwk/webman-sail">
     <img src="https://img.shields.io/badge/roiwk/webmanSail-181717?logo=github" alt="github" title="github/webman-sail"/>
   </a>
-</p>
+</figure>
+
+<center>
 
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/roiwk/webman-sail?display_name=tag&style=plastic)
 ![Packagist Downloads](https://img.shields.io/packagist/dt/roiwk/webman-sail)
 ![GitHub Repo stars](https://img.shields.io/github/stars/roiwk/webman-sail?style=social)
+
+</center>
 
 # 简介
 
