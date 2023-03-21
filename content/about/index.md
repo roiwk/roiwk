@@ -8,15 +8,16 @@ type = "about"
 +++
 
 
-<p>
+<div>
 <a href="https://github.com/roiwk">
-  <img src="https://img.shields.io/badge/roiwk-181717?logo=github" alt="Github" title="Github"  style="float:left"/>
+  <img src="https://img.shields.io/badge/roiwk-181717?logo=github" alt="Github" title="Github" />
 </a>
 <a href="https://gitee.com/roiwk">
-  <img src="https://img.shields.io/badge/roiwk-C71D23?logo=gitee" alt="Gitee" title="Gitee"  style="float:left"/>
+  <img src="https://img.shields.io/badge/roiwk-C71D23?logo=gitee" alt="Gitee" title="Gitee" />
 </a>
-</p>
+</div>
 
+<br/>
 
 <!--
 | 时期 | 职务 | 技能树 | 工作
@@ -27,7 +28,7 @@ type = "about"
 
 <details>
   <summary>
-      <strong>  联系方式 ↓ </strong>
+      <strong>  联系方式 </strong>
   </summary>
 
 <a href="mailto:changewker@foxmail.com">
