@@ -24,15 +24,6 @@ jobs:
           hugo-version: 'latest'
           # extended: true
 
-      - name: Set Hugo Share Configuration
-        env:
-          HUGO_ADDTHIS_ID: ${{ secrets.HUGO_ADD_THIS_ID }}
-        run: |
-          mkdir -p ./config/production
-          echo -e "[Share]\n  Enable = true\n  AddthisId = \"${HUGO_ADDTHIS_ID}\"" > ./config/production/params.toml
-          echo 'ok'
-        working-directory: ./
-
       - name: Build
         run: hugo --minify
 

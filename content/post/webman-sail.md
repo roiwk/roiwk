@@ -6,6 +6,7 @@ date = "2023-01-10"
 keywords = [
     "webman",
     "webman-sail",
+    "webman docker",
     "docker compose",
     "docker",
 ]
