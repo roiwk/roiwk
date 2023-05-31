@@ -11,7 +11,7 @@ docker run --rm \
     --pull=always \
     -v "$(pwd)":/opt \
     -w /opt \
-    roiwk/webman-sail-composer:latest \
+    roiwk/webman-sail:latest \
     bash -c "composer create-project workerman/webman example-app && cd example-app && composer require roiwk/webman-sail --dev && php ./webman sail:install --with=mysql,redis"
 
 cd example-app
