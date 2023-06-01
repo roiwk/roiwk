@@ -12,12 +12,9 @@ docker run --rm \
     -v "$(pwd)":/opt \
     -w /opt \
     roiwk/webman-sail:latest \
-    bash -c "composer create-project workerman/webman example-app && cd example-app && composer require roiwk/webman-sail --dev && php ./webman sail:install --with=mysql,redis"
+    sh -c "composer create-project workerman/webman example-app && cd example-app && composer require roiwk/webman-sail --dev && php ./webman sail:install --with=mysql,redis"
 
 cd example-app
-
-./vendor/bin/sail pull mysql redis
-./vendor/bin/sail build
 
 CYAN='\033[0;36m'
 LIGHT_CYAN='\033[1;36m'
@@ -29,10 +26,13 @@ echo ""
 if sudo -n true 2>/dev/null; then
     sudo chown -R $USER: .
     echo -e "${BOLD}Get started with:${NC} cd example-app && ./vendor/bin/sail up"
+    echo -e "${BOLD}大展拳脚吧:${NC} cd example-app && ./vendor/bin/sail up"
 else
     echo -e "${BOLD}Please provide your password so we can make some final adjustments to your application's permissions.${NC}"
+    echo -e "${BOLD}请提供您的当前用户密码，以便我们可以对您的应用程序权限进行一些最终调整${NC}"
     echo ""
     sudo chown -R $USER: .
     echo ""
     echo -e "${BOLD}Thank you! We hope you build something incredible. Dive in with:${NC} cd example-app && ./vendor/bin/sail up"
+    echo -e "${BOLD}非常感谢。我们希望你能创造出令人难以置信的东西。大展拳脚吧:${NC} cd example-app && ./vendor/bin/sail up"
 fi
