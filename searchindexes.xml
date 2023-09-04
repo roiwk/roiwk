@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><search><entry><title>php的闭包序列化</title><url>/post/php-closure-serialize/</url><categories><category>php</category></categories><tags><tag>php</tag><tag>closure</tag><tag>serialized</tag></tags><content type="html">PHP 闭包序列化：实现和对现有程序的思考 在 PHP 中，闭包是一种非常强大的特性，可以让我们编写更简洁、更灵活的代码。然而，当我们需要将闭包序列化并保存到文件或数据库中时，可能会遇到一些问题。本文将介绍如何实现 PHP 闭包序列化，并探讨这一过程对现有程序的影响。
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><search><entry><title>php的SSE客户端</title><url>/post/php-sse-client/</url><categories><category>php</category></categories><tags><tag>php</tag><tag>sse</tag><tag>composer</tag></tags><content type="html"><![CDATA[ sse-client SSE客户端 Server Sent Event client
+php的SSE客户端, 采用原生stream,不依赖任何第三方库.
+#项目缘由: php的SSE服务端很容易就能找到, 这里想做一个SSE的客户端(项目需要),要求用起来方便, 类似javascript客户端, 就有了此项目
+Install 安装 composer require roiwk/sse-client Usage 使用 Client 客户端 include &#39;path/to/autoload.php&#39;; $client = new Roiwk\SSEClient\Client(&#39;http://127.0.0.1:8888&#39;); $client-&gt;addEventListener(&#39;ping&#39;, function ($data) { echo &#34;Received ping event: $data\n&#34;; }); $client-&gt;start(); Server (demo) 服务端 You can use a test server to facilitate the use of this demo client, or use another server. Here is a demo:
+你可以使用一个测试服务器,以方便使用此演示客户端,或着使用别的服务端:
+server.php php -S 127.0.0.1 server.php Advanced 高级用法 // construct usage $client = new Roiwk\SSEClient\Client(&#39;http://127.0.0.1:8888&#39;, [ &#39;retryInterval&#39; =&gt; 3, &#39;onmessage&#39; =&gt; function(string $data){}, &#39;streamContextOptions&#39; =&gt; [ &#39;http&#39; =&gt; [ &#39;method&#39; =&gt; &#39;GET&#39;, ] ], ]); // method usage $client = new Roiwk\SSEClient\Client(&#39;http://127.0.0.1:8888&#39;); $client-&gt;onmessage(function(string $data){ echo $data.PHP_EOL; }); $client-&gt;setRetryInterval(1); ]]></content></entry><entry><title>php的闭包序列化</title><url>/post/php-closure-serialize/</url><categories><category>php</category></categories><tags><tag>php</tag><tag>closure</tag><tag>serialized</tag></tags><content type="html">PHP 闭包序列化：实现和对现有程序的思考 在 PHP 中，闭包是一种非常强大的特性，可以让我们编写更简洁、更灵活的代码。然而，当我们需要将闭包序列化并保存到文件或数据库中时，可能会遇到一些问题。本文将介绍如何实现 PHP 闭包序列化，并探讨这一过程对现有程序的影响。
 什么是闭包？ 在 PHP 中，闭包是一种可以访问其定义范围内变量的函数。换句话说，它们可以捕获其创建时所处的上下文，并在稍后执行时访问该上下文。闭包通常用于创建回调函数、生成器和事件处理程序等。
 以下是一个简单的闭包示例(好像又没那么简单)：
 $multiplier = function ($x) { return function ($y) use ($x) { return $x * $y; }; }; $double = $multiplier(2); echo $double(5); // 输出 10 在上面的例子中，$multiplier 是一个接收一个参数 $x 的函数，它返回另一个接收一个参数 $y 的函数。返回的函数使用了 $x，这个值是从外部作用域中“捕获”的。
@@ -90,9 +95,4 @@ Docker 利用容器来运行应用。 容器是从镜像创建的运行实例。
 3&gt; Docker三剑客 Docker Compose 负责快速的部署分布式应用。 Compose 定位是 「定义和运行多个 Docker 容器的应用（Defining and running multi-container Docker applications）」
 Docker Machine Docker Machine 是 Docker 官方编排（Orchestration）项目 负责在多种平台上快速安装 Docker 环境。
 Docker Swarm 提供 Docker 容器集群服务，是 Docker 官方对容器云生态进行支持的核心方案。
-]]></content></entry><entry><title/><url>/post/php-sse-client/</url><categories/><tags/><content type="html"><![CDATA[sse-client SSE客户端 Server Sent Event client
-php的SSE客户端, 采用原生stream,不依赖任何第三方库.
-#项目缘由: php的SSE服务端很容易就能找到, 这里想做一个SSE的客户端(项目需要),要求用起来方便, 类似javascript客户端, 就有了此项目
-Install 安装 composer require roiwk/sse-client Usage 使用 Client 客户端 include &#39;path/to/autoload.php&#39;; $client = new Roiwk\SSEClient\Client(&#39;http://127.0.0.1:8888&#39;); $client-&gt;addEventListener(&#39;ping&#39;, function ($data) { echo &#34;Received ping event: $data\n&#34;; }); $client-&gt;start(); Server (demo) 服务端 You can use a test server to facilitate the use of this demo client, or use another server. Here is a demo:
-你可以使用一个测试服务器,以方便使用此演示客户端,或着使用别的服务端:
-server.php php -S 127.0.0.1 server.php Advanced 高级用法 // construct usage $client = new Roiwk\SSEClient\Client(&#39;http://127.0.0.1:8888&#39;, [ &#39;retryInterval&#39; =&gt; 3, &#39;onmessage&#39; =&gt; function(string $data){}, &#39;streamContextOptions&#39; =&gt; [ &#39;http&#39; =&gt; [ &#39;method&#39; =&gt; &#39;GET&#39;, ] ], ]); // method usage $client = new Roiwk\SSEClient\Client(&#39;http://127.0.0.1:8888&#39;); $client-&gt;onmessage(function(string $data){ echo $data.PHP_EOL; }); $client-&gt;setRetryInterval(1); ]]></content></entry></search>
+]]></content></entry></search>
