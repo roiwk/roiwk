@@ -1,3 +1,33 @@
++++
+author = "roiwk"
+title = "php的SSE客户端"
+description = "php的SSE客户端"
+date = "2023-09-04"
+keywords = [
+    "sse client",
+    "php sse client"
+]
+tags = [
+    "php",
+    "sse",
+    "composer",
+]
+categories = [
+    "php",
+]
+draft = false
++++
+
+
+<p>
+ <a href="https://github.com/roiwk/sse-client">
+    <img src="https://img.shields.io/badge/roiwk/seeClient-181717?logo=github" alt="github" title="roiwk/sseClient"/>
+  </a>
+</p>
+
+![Packagist Downloads](https://img.shields.io/packagist/dt/roiwk/sse-client)
+
+
 # sse-client  SSE客户端
 Server Sent Event client  
 php的SSE客户端, 采用原生stream,不依赖任何第三方库. 
