@@ -704,7 +704,7 @@ params:
   # 谷歌站点验证
   # Google Webmaster tools verification.
   # See: https://developers.google.com/search
-  googleSiteVerification: #<verify_code>
+  googleSiteVerification: lcKTc6Deh_6hZ1F2--5M0FOxv0eCDzo4XSBbF6Oj5Uk
 
   # 微软 Bing 站验证
   # Bing Webmaster tools verification.
