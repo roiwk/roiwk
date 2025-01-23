@@ -421,9 +421,9 @@ params:
     # Beian ICP and gongan information for Chinese users. 
     # See: https://beian.miit.gov.cn, http://www.beian.gov.cn
     beian:
-      enable: true
+      enable: false
       # ICP 备案的具体信息
-      icp: 陕ICP备 2024027629 号
+      icp: 陕ICP备 2024027629-1 号
       # 公安网备的省份简称
       provinceAbbr: 陕
       # 公安网备案号
