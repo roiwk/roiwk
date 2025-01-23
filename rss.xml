@@ -1,1 +1,125 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>roiwk</title><link>https://www.roiwk.cn/</link><description>Recent content on roiwk</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Mon, 04 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.roiwk.cn/rss.xml" rel="self" type="application/rss+xml"/><item><title>php的SSE客户端</title><link>https://www.roiwk.cn/post/php-sse-client/</link><pubDate>Mon, 04 Sep 2023 00:00:00 +0000</pubDate><guid>https://www.roiwk.cn/post/php-sse-client/</guid><description>sse-client SSE客户端 Server Sent Event client php的SSE客户端, 采用原生stream,不依赖任何第三方库. 项目缘由: php的SSE服务端很容易就能找到, 这里想做</description></item><item><title>php的闭包序列化</title><link>https://www.roiwk.cn/post/php-closure-serialize/</link><pubDate>Sat, 27 May 2023 00:00:00 +0000</pubDate><guid>https://www.roiwk.cn/post/php-closure-serialize/</guid><description>PHP 闭包序列化：实现和对现有程序的思考 在 PHP 中，闭包是一种非常强大的特性，可以让我们编写更简洁、更灵活的代码。然而，当我们需要将闭包序列化并保存</description></item><item><title>webman与docker开发环境交互</title><link>https://www.roiwk.cn/post/webman-sail/</link><pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate><guid>https://www.roiwk.cn/post/webman-sail/</guid><description>简介 Webman Sail 是一个轻量级的命令行界面，用于 Webman 与 Docker 开发环境进行交互。Sail 为使用 PHP，MySQL 和 Redis 构建 Webman 应用程序提供了一个很好的起点，而无需</description></item><item><title>关于我选择Manjaro作为桌面系统 第二集 NVIDIA驱动</title><link>https://www.roiwk.cn/post/manjaro-for-me-of-two/</link><pubDate>Sat, 03 Sep 2022 00:00:00 +0000</pubDate><guid>https://www.roiwk.cn/post/manjaro-for-me-of-two/</guid><description>关于我选择Manjaro作为桌面系统 第二集 NVIDIA驱动 系统已安装，默认环境也都够用了，现在开始安装N卡驱动。 显卡放着,不能让它不干活啊，</description></item><item><title>关于我选择Manjaro作为桌面系统 第一集</title><link>https://www.roiwk.cn/post/manjaro-for-me-of-one/</link><pubDate>Wed, 31 Aug 2022 00:00:00 +0000</pubDate><guid>https://www.roiwk.cn/post/manjaro-for-me-of-one/</guid><description>关于我选择Manjaro作为桌面系统 第一集 起因 总的来说就是：还没钱买新电脑，这个还能用，想再折腾折腾 手上笔记本,C盘满了又删，删了又满，基本</description></item><item><title>Hello Blog</title><link>https://www.roiwk.cn/post/hello-blog/</link><pubDate>Wed, 08 Jun 2022 00:00:00 +0000</pubDate><guid>https://www.roiwk.cn/post/hello-blog/</guid><description>Hi 你好，首次发布，记录一下。 采用 Hugo (主题: Next ) + Github Page + Github Actions 构建。 未来将分享一些文章。 加油！blog~</description></item><item><title>关于我</title><link>https://www.roiwk.cn/about.html</link><pubDate>Wed, 08 Jun 2022 00:00:00 +0000</pubDate><guid>https://www.roiwk.cn/about.html</guid><description>联系方式</description></item><item><title>友盟openAPI的php实现</title><link>https://www.roiwk.cn/post/umeng-openapi/</link><pubDate>Wed, 09 Dec 2020 00:00:00 +0000</pubDate><guid>https://www.roiwk.cn/post/umeng-openapi/</guid><description>简介 一个简单,好用的友盟open-api的包&amp;hellip; 封装了友盟官方open-api的sdk, 官方sdk版本1.1.4 umeng官方文</description></item><item><title>Docker 入门</title><link>https://www.roiwk.cn/post/docker-introduction/</link><pubDate>Fri, 07 Dec 2018 00:00:00 +0000</pubDate><guid>https://www.roiwk.cn/post/docker-introduction/</guid><description>Docker 入门 Docker 一. 是什么 1.Docker概念与简要历史 Docker 是一个开源的应用容器引擎，你可以将其理解为一个轻量级的虚拟机， 开发者可以打包他们的应用以及</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>roiwk</title><link>https://www.roiwk.cn/</link><description>Recent content on roiwk</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Mon, 04 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.roiwk.cn/rss.xml" rel="self" type="application/rss+xml"/><item><title>php的SSE客户端</title><link>https://www.roiwk.cn/post/php-sse-client/</link><pubDate>Mon, 04 Sep 2023 00:00:00 +0000</pubDate><guid>https://www.roiwk.cn/post/php-sse-client/</guid><description>&lt;p>
+ &lt;a href="https://github.com/roiwk/sse-client">
+ &lt;img src="https://img.shields.io/badge/roiwk/seeClient-181717?logo=github" alt="github" title="roiwk/sseClient"/>
+ &lt;/a>
+&lt;/p>
+&lt;p>&lt;img src="https://www.roiwk.cn/imgs/img-lazy-loading.gif" data-src="https://img.shields.io/packagist/dt/roiwk/sse-client" alt="Packagist Downloads" />&lt;/p>
+&lt;h1 id="sse-client--sse客户端">sse-client SSE客户端&lt;/h1>
+&lt;p>Server Sent Event client&lt;br>
+php的SSE客户端, 采用原生stream,不依赖任何第三方库.&lt;/p>
+&lt;h1 id="项目缘由">项目缘由:&lt;/h1>
+&lt;p>php的SSE服务端很容易就能找到, 这里想做一个SSE的客户端(项目需要),要求用起来方便, 类似javascript客户端, 就有了此项目&lt;/p></description></item><item><title>php的闭包序列化</title><link>https://www.roiwk.cn/post/php-closure-serialize/</link><pubDate>Sat, 27 May 2023 00:00:00 +0000</pubDate><guid>https://www.roiwk.cn/post/php-closure-serialize/</guid><description>&lt;h1 id="php-闭包序列化实现和对现有程序的思考">PHP 闭包序列化：实现和对现有程序的思考&lt;/h1>
+&lt;p>在 PHP 中，闭包是一种非常强大的特性，可以让我们编写更简洁、更灵活的代码。然而，当我们需要将闭包序列化并保存到文件或数据库中时，可能会遇到一些问题。本文将介绍如何实现 PHP 闭包序列化，并探讨这一过程对现有程序的影响。&lt;/p></description></item><item><title>webman与docker开发环境交互</title><link>https://www.roiwk.cn/post/webman-sail/</link><pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate><guid>https://www.roiwk.cn/post/webman-sail/</guid><description>&lt;figure class="half">
+ &lt;a href="https://gitee.com/roiwk/webman-sail">
+ &lt;img src="https://img.shields.io/badge/roiwk/webmanSail-C71D23?logo=gitee" alt="gitee" title="roiwk/webman-sail"/>
+ &lt;/a>
+ &lt;a href="https://github.com/roiwk/webman-sail">
+ &lt;img src="https://img.shields.io/badge/roiwk/webmanSail-181717?logo=github" alt="github" title="github/webman-sail"/>
+ &lt;/a>
+&lt;/figure>
+&lt;center>
+&lt;p>&lt;img src="https://www.roiwk.cn/imgs/img-lazy-loading.gif" data-src="https://img.shields.io/github/v/release/roiwk/webman-sail?display_name=tag&amp;amp;style=plastic" alt="GitHub release (latest by date)" />
+&lt;img src="https://www.roiwk.cn/imgs/img-lazy-loading.gif" data-src="https://img.shields.io/packagist/dt/roiwk/webman-sail" alt="Packagist Downloads" />
+&lt;img src="https://www.roiwk.cn/imgs/img-lazy-loading.gif" data-src="https://img.shields.io/github/stars/roiwk/webman-sail?style=social" alt="GitHub Repo stars" />&lt;/p>
+&lt;/center>
+&lt;h1 id="简介">简介&lt;/h1>
+&lt;p>Webman Sail 是一个轻量级的命令行界面，用于 Webman 与 Docker 开发环境进行交互。Sail 为使用 PHP，MySQL 和 Redis 构建 Webman 应用程序提供了一个很好的起点，而无需事先具有 Docker 经验。&lt;/p></description></item><item><title>关于我选择Manjaro作为桌面系统 第二集 NVIDIA驱动</title><link>https://www.roiwk.cn/post/manjaro-for-me-of-two/</link><pubDate>Sat, 03 Sep 2022 00:00:00 +0000</pubDate><guid>https://www.roiwk.cn/post/manjaro-for-me-of-two/</guid><description>&lt;h1 id="关于我选择manjaro作为桌面系统-第二集-nvidia驱动">关于我选择Manjaro作为桌面系统 第二集 NVIDIA驱动&lt;/h1>
+&lt;blockquote>
+&lt;p>系统已安装，默认环境也都够用了，现在开始安装N卡驱动。&lt;br>
+显卡放着,不能让它不干活啊，生产队的驴都不敢这么歇着。&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="推荐方法一-从manjaro存储库自动安装nvidia驱动">【推荐】方法一: 从Manjaro存储库自动安装Nvidia驱动&lt;/h2>
+&lt;hr>
+&lt;ol>
+&lt;li>自动检测系统，并安装适当的Nvidia驱动
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:2;-o-tab-size:2;tab-size:2;">&lt;code class="language-shell" data-lang="shell">&lt;span style="display:flex;">&lt;span>sudo mhwd -a pci nonfree &lt;span style="color:#ae81ff">0300&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
+&lt;li>重启系统
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:2;-o-tab-size:2;tab-size:2;">&lt;code class="language-shell" data-lang="shell">&lt;span style="display:flex;">&lt;span>sudo reboot
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
+&lt;li>重启后，配置显卡
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:2;-o-tab-size:2;tab-size:2;">&lt;code class="language-shell" data-lang="shell">&lt;span style="display:flex;">&lt;span>nvidia-settings
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
+&lt;/ol>
+&lt;p>官方库有支持就是简单直接，一步到位。&lt;strong>安装成功&lt;/strong>&lt;/p></description></item><item><title>关于我选择Manjaro作为桌面系统 第一集</title><link>https://www.roiwk.cn/post/manjaro-for-me-of-one/</link><pubDate>Wed, 31 Aug 2022 00:00:00 +0000</pubDate><guid>https://www.roiwk.cn/post/manjaro-for-me-of-one/</guid><description>&lt;h1 id="关于我选择manjaro作为桌面系统-第一集">关于我选择Manjaro作为桌面系统 第一集&lt;/h1>
+&lt;h2 id="起因">起因&lt;/h2>
+&lt;hr>
+&lt;p>&lt;em>&lt;strong>总的来说就是：还没钱买新电脑，这个还能用，想再折腾折腾&lt;/strong>&lt;/em>&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>手上笔记本,C盘&lt;strong>满了又删，删了又满&lt;/strong>，基本每过两月就得经历；&lt;br>
+&lt;em>CC cleaner&lt;/em> 安装了两年了；每次清理都有种上大学时用的手机的感觉，也是存储不够，天天满，天天清；&lt;/p></description></item><item><title>Hello Blog</title><link>https://www.roiwk.cn/post/hello-blog/</link><pubDate>Wed, 08 Jun 2022 00:00:00 +0000</pubDate><guid>https://www.roiwk.cn/post/hello-blog/</guid><description>&lt;h1 id="hi">Hi&lt;/h1>
+&lt;p>你好，首次发布，记录一下。&lt;/p>
+&lt;p>采用
+&lt;a href="https://gohugo.io" title="Hugo" rel="noopener external nofollow noreferrer" target="_blank" class=" exturl">
+ Hugo
+ &lt;i class="fa fa-external-link-alt">&lt;/i>
+&lt;/a>(主题: 
+&lt;a href="http://github.com/elkan1788/hugo-theme-next" title="Next" rel="noopener external nofollow noreferrer" target="_blank" class=" exturl">
+ Next
+ &lt;i class="fa fa-external-link-alt">&lt;/i>
+&lt;/a>) + 
+&lt;a href="https://github.com" title="Github" rel="noopener external nofollow noreferrer" target="_blank" class=" exturl">
+ Github
+ &lt;i class="fa fa-external-link-alt">&lt;/i>
+&lt;/a> Page + 
+&lt;a href="https://github.com" title="Github" rel="noopener external nofollow noreferrer" target="_blank" class=" exturl">
+ Github
+ &lt;i class="fa fa-external-link-alt">&lt;/i>
+&lt;/a> Actions 构建。&lt;/p>
+&lt;p>未来将分享一些文章。&lt;/p>
+&lt;p>加油！blog~&lt;/p></description></item><item><title>关于我</title><link>https://www.roiwk.cn/about.html</link><pubDate>Wed, 08 Jun 2022 00:00:00 +0000</pubDate><guid>https://www.roiwk.cn/about.html</guid><description>&lt;div>
+&lt;a href="https://github.com/roiwk">
+ &lt;img src="https://img.shields.io/badge/roiwk-181717?logo=github" alt="Github" title="Github" />
+&lt;/a>
+&lt;a href="https://gitee.com/roiwk">
+ &lt;img src="https://img.shields.io/badge/roiwk-C71D23?logo=gitee" alt="Gitee" title="Gitee" />
+&lt;/a>
+&lt;/div>
+&lt;br/>
+&lt;!--
+| 时期 | 职务 | 技能树 | 工作
+| :---: | :--- | :--- | :--- |
+| todo | 后端开发攻城狮 | php | todo |
+-->
+&lt;details>
+ &lt;summary>
+ &lt;strong> 联系方式 &lt;/strong>
+ &lt;/summary>
+&lt;a href="mailto:changewker@foxmail.com">
+ &lt;img src="https://img.shields.io/badge/changewker@foxmail.com-white?logo=gmail" alt="email" title="邮箱：changewker@foxmail.com"/>
+&lt;/a>
+&lt;a href="https://www.roiwk.cn">
+ &lt;img src="https://img.shields.io/badge/博客-roiwk-white?logo=hugo" alt="blog" title="https://www.roiwk.cn"/>
+&lt;/a>
+&lt;/details></description></item><item><title>友盟openAPI的php实现</title><link>https://www.roiwk.cn/post/umeng-openapi/</link><pubDate>Wed, 09 Dec 2020 00:00:00 +0000</pubDate><guid>https://www.roiwk.cn/post/umeng-openapi/</guid><description>&lt;p>
+ &lt;a href="https://gitee.com/roiwk/UmengOpenAPI">
+ &lt;img src="https://img.shields.io/badge/roiwk/UmengOpenAPI-C71D23?logo=gitee" alt="gitee" title="roiwk/UmengOpenAPI"/>
+ &lt;/a>
+ &lt;a href="https://github.com/roiwk/UmengOpenAPI">
+ &lt;img src="https://img.shields.io/badge/roiwk/UmengOpenAPI-181717?logo=github" alt="github" title="github/UmengOpenAPI"/>
+ &lt;/a>
+&lt;/p>
+&lt;p>&lt;img src="https://www.roiwk.cn/imgs/img-lazy-loading.gif" data-src="https://img.shields.io/packagist/dt/roiwk/umeng-open-api" alt="Packagist Downloads" />&lt;/p>
+&lt;h1 id="简介">简介&lt;/h1>
+&lt;p>一个简单,好用的友盟open-api的包&amp;hellip;
+封装了友盟官方open-api的sdk, 官方sdk版本1.1.4&lt;/p>
+&lt;blockquote>
+&lt;p>
+&lt;a href="https://developer.umeng.com/open-api/state" title="umeng官方文档" rel="noopener external nofollow noreferrer" target="_blank" class=" exturl">
+ umeng官方文档
+ &lt;i class="fa fa-external-link-alt">&lt;/i>
+&lt;/a>&lt;/p></description></item><item><title>Docker 入门</title><link>https://www.roiwk.cn/post/docker-introduction/</link><pubDate>Fri, 07 Dec 2018 00:00:00 +0000</pubDate><guid>https://www.roiwk.cn/post/docker-introduction/</guid><description>&lt;p>
+ &lt;a href="https://gitee.com/roiwk/docker_sharing">
+ &lt;img src="https://img.shields.io/badge/roiwk-docker_sharing-C71D23?logo=gitee" alt="gitee" title="roiwk/docker_sharing"/>
+ &lt;/a>
+&lt;/p>
+&lt;h1 id="docker-入门">Docker 入门&lt;/h1>
+&lt;p>&lt;img src="https://www.roiwk.cn/imgs/img-lazy-loading.gif" data-src="https://www.roiwk.cn/images/docker.jpg" alt="Docker" />&lt;/p>
+&lt;hr>
+&lt;h1 id="docker">Docker&lt;/h1>
+&lt;h2 id="一-是什么">一. 是什么&lt;/h2>
+&lt;h3 id="1docker概念与简要历史">1.Docker概念与简要历史&lt;/h3>
+&lt;blockquote>
+&lt;p>Docker 是一个开源的应用容器引擎，你可以将其理解为一个轻量级的虚拟机，
+开发者可以打包他们的应用以及依赖包到一个可移植的容器中，然后发布到任何流行的 Linux 机器上。&lt;/p></description></item></channel></rss>

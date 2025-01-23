@@ -1,1 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Introduction on roiwk</title><link>https://www.roiwk.cn/tags/introduction/</link><description>Recent content in Introduction on roiwk</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Wed, 08 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.roiwk.cn/tags/introduction/rss.xml" rel="self" type="application/rss+xml"/><item><title>Hello Blog</title><link>https://www.roiwk.cn/post/hello-blog/</link><pubDate>Wed, 08 Jun 2022 00:00:00 +0000</pubDate><guid>https://www.roiwk.cn/post/hello-blog/</guid><description>Hi 你好，首次发布，记录一下。 采用 Hugo (主题: Next ) + Github Page + Github Actions 构建。 未来将分享一些文章。 加油！blog~</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Introduction on roiwk</title><link>https://www.roiwk.cn/tags/introduction/</link><description>Recent content in Introduction on roiwk</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Wed, 08 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.roiwk.cn/tags/introduction/rss.xml" rel="self" type="application/rss+xml"/><item><title>Hello Blog</title><link>https://www.roiwk.cn/post/hello-blog/</link><pubDate>Wed, 08 Jun 2022 00:00:00 +0000</pubDate><guid>https://www.roiwk.cn/post/hello-blog/</guid><description>&lt;h1 id="hi">Hi&lt;/h1>
+&lt;p>你好，首次发布，记录一下。&lt;/p>
+&lt;p>采用
+&lt;a href="https://gohugo.io" title="Hugo" rel="noopener external nofollow noreferrer" target="_blank" class=" exturl">
+ Hugo
+ &lt;i class="fa fa-external-link-alt">&lt;/i>
+&lt;/a>(主题: 
+&lt;a href="http://github.com/elkan1788/hugo-theme-next" title="Next" rel="noopener external nofollow noreferrer" target="_blank" class=" exturl">
+ Next
+ &lt;i class="fa fa-external-link-alt">&lt;/i>
+&lt;/a>) + 
+&lt;a href="https://github.com" title="Github" rel="noopener external nofollow noreferrer" target="_blank" class=" exturl">
+ Github
+ &lt;i class="fa fa-external-link-alt">&lt;/i>
+&lt;/a> Page + 
+&lt;a href="https://github.com" title="Github" rel="noopener external nofollow noreferrer" target="_blank" class=" exturl">
+ Github
+ &lt;i class="fa fa-external-link-alt">&lt;/i>
+&lt;/a> Actions 构建。&lt;/p>
+&lt;p>未来将分享一些文章。&lt;/p>
+&lt;p>加油！blog~&lt;/p></description></item></channel></rss>
