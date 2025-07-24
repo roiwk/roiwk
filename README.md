@@ -6,6 +6,8 @@ Hi, I'm a software engineer. 😊
     echo 'hello world';
 ```
 
+> The beginning "hello world", the eternal "hello world"!
+
 [![Github](https://img.shields.io/badge/roiwk-181717?logo=github)](https://github.com/roiwk)
 [![Gitee](https://img.shields.io/badge/roiwk-C71D23?logo=gitee)](https://gitee.com/roiwk)
 
