@@ -304,8 +304,8 @@ params:
     # Posts / Categories / Tags in sidebar.
     basic: true
     # 站点访问信息
-    # Site information
-    statistic: 
+    # Site's view information
+    views:  
       enable: true
       # 组件类型，可选值为： 51la, busuanzi
       # 使用51la时需要注册账号：https://invite.51.la/1NUfGTS1?target=V6
@@ -486,6 +486,31 @@ params:
     categories: true
     wordCount: true
     readTime: true
+
+  # 文章内容中的提示信息设置
+  # Alert settings in post content
+  postAlerts:
+    info:
+      icon: "circle-info"
+      color: "#4A90E2"
+    note:
+      icon: "bell"
+      color: "#17A2B8"
+    help:
+      icon: "circle-question"
+      color: "#967ADC"
+    error:
+      icon: "circle-xmark"
+      color: "#DC3545"
+    warning:
+      icon: "triangle-exclamation"
+      color: "#F39C12"
+    success:
+      icon: "circle-check"
+      color: "#32CD32"
+    important:
+      icon: "circle-plus"
+      color: "#007BFF"
 
   # 文章底部的设置
   # Post footer settings
@@ -915,11 +940,20 @@ params:
     id:     # <app_id>
     color:  "#fc6423"
 
-  # AddThis文章分享功能
-  # 更多信息及配置请参考：https://www.addthis.com
-  # AddThis Share. 
-  # See: https://www.addthis.com
-  addThisId: ra-629f474b8e7451cc
+  # 文章分享功能
+  # Share settings
+  share:
+    enable: false
+    # 更多信息与配置，请参考：https://sharethis.com
+    # For more information and configuration, please refer to:https://sharethis.com
+    # sharethis:
+    #   id: #<sharethis_id> 
+    # 简单的在线分享，没有统计数据功能，更多信息可参考：https://www.addtoany.com/
+    # Simple online sharing without statistical data function. 
+    # For more information, please refer to: https://www.addtoany.com/
+    # addtoany:    
+    #   locale: zh-CN
+    #   num_services: 8
 
 
   # ---------------------------------------------------------------
