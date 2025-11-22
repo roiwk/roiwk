@@ -139,6 +139,11 @@ menus:
       pageref: /about.html
       pre: user
       weight: 3
+    - identifier: wx
+      name: 公众号
+      pageref: /wx
+      pre: paper-plane
+      weight: 4
     # - identifier: flinks
     #   name: 站点示例
     #   pageref: /flinks.html
