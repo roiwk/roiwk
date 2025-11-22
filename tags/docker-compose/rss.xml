@@ -1,15 +1,1 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Docker Compose on roiwk</title><link>https://www.roiwk.cn/tags/docker-compose/</link><description>Recent content in Docker Compose on roiwk</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Tue, 10 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.roiwk.cn/tags/docker-compose/rss.xml" rel="self" type="application/rss+xml"/><item><title>webman与docker开发环境交互</title><link>https://www.roiwk.cn/post/webman-sail/</link><pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate><guid>https://www.roiwk.cn/post/webman-sail/</guid><description>&lt;figure class="half">
- &lt;a href="https://gitee.com/roiwk/webman-sail">
- &lt;img src="https://img.shields.io/badge/roiwk/webmanSail-C71D23?logo=gitee" alt="gitee" title="roiwk/webman-sail"/>
- &lt;/a>
- &lt;a href="https://github.com/roiwk/webman-sail">
- &lt;img src="https://img.shields.io/badge/roiwk/webmanSail-181717?logo=github" alt="github" title="github/webman-sail"/>
- &lt;/a>
-&lt;/figure>
-&lt;center>
-&lt;p>&lt;img src="https://www.roiwk.cn/imgs/img-lazy-loading.gif" data-src="https://img.shields.io/github/v/release/roiwk/webman-sail?display_name=tag&amp;amp;style=plastic" alt="GitHub release (latest by date)" />
-&lt;img src="https://www.roiwk.cn/imgs/img-lazy-loading.gif" data-src="https://img.shields.io/packagist/dt/roiwk/webman-sail" alt="Packagist Downloads" />
-&lt;img src="https://www.roiwk.cn/imgs/img-lazy-loading.gif" data-src="https://img.shields.io/github/stars/roiwk/webman-sail?style=social" alt="GitHub Repo stars" />&lt;/p>
-&lt;/center>
-&lt;h1 id="简介">简介&lt;/h1>
-&lt;p>Webman Sail 是一个轻量级的命令行界面，用于 Webman 与 Docker 开发环境进行交互。Sail 为使用 PHP，MySQL 和 Redis 构建 Webman 应用程序提供了一个很好的起点，而无需事先具有 Docker 经验。&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Docker Compose on roiwk</title><link>https://www.roiwk.cn/tags/docker-compose/</link><description>Recent content in Docker Compose on roiwk</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Tue, 10 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.roiwk.cn/tags/docker-compose/rss.xml" rel="self" type="application/rss+xml"/><item><title>webman与docker开发环境交互</title><link>https://www.roiwk.cn/post/webman-sail/</link><pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate><guid>https://www.roiwk.cn/post/webman-sail/</guid><description>简介 Webman Sail 是一个轻量级的命令行界面，用于 Webman 与 Docker 开发环境进行交互。Sail 为使用 PHP，MySQL 和 Redis 构建 Webman 应用程序提供了一个很好的起点，而无需</description></item></channel></rss>

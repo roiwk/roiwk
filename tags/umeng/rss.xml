@@ -1,18 +1,1 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Umeng on roiwk</title><link>https://www.roiwk.cn/tags/umeng/</link><description>Recent content in Umeng on roiwk</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Wed, 09 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://www.roiwk.cn/tags/umeng/rss.xml" rel="self" type="application/rss+xml"/><item><title>友盟openAPI的php实现</title><link>https://www.roiwk.cn/post/umeng-openapi/</link><pubDate>Wed, 09 Dec 2020 00:00:00 +0000</pubDate><guid>https://www.roiwk.cn/post/umeng-openapi/</guid><description>&lt;p>
- &lt;a href="https://gitee.com/roiwk/UmengOpenAPI">
- &lt;img src="https://img.shields.io/badge/roiwk/UmengOpenAPI-C71D23?logo=gitee" alt="gitee" title="roiwk/UmengOpenAPI"/>
- &lt;/a>
- &lt;a href="https://github.com/roiwk/UmengOpenAPI">
- &lt;img src="https://img.shields.io/badge/roiwk/UmengOpenAPI-181717?logo=github" alt="github" title="github/UmengOpenAPI"/>
- &lt;/a>
-&lt;/p>
-&lt;p>&lt;img src="https://www.roiwk.cn/imgs/img-lazy-loading.gif" data-src="https://img.shields.io/packagist/dt/roiwk/umeng-open-api" alt="Packagist Downloads" />&lt;/p>
-&lt;h1 id="简介">简介&lt;/h1>
-&lt;p>一个简单,好用的友盟open-api的包&amp;hellip;
-封装了友盟官方open-api的sdk, 官方sdk版本1.1.4&lt;/p>
-&lt;blockquote>
-&lt;p>
-&lt;a href="https://developer.umeng.com/open-api/state" title="umeng官方文档" rel="noopener external nofollow noreferrer" target="_blank" class=" exturl">
- umeng官方文档
- &lt;i class="fa fa-external-link-alt">&lt;/i>
-&lt;/a>&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Umeng on roiwk</title><link>https://www.roiwk.cn/tags/umeng/</link><description>Recent content in Umeng on roiwk</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Wed, 09 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://www.roiwk.cn/tags/umeng/rss.xml" rel="self" type="application/rss+xml"/><item><title>友盟openAPI的php实现</title><link>https://www.roiwk.cn/post/umeng-openapi/</link><pubDate>Wed, 09 Dec 2020 00:00:00 +0000</pubDate><guid>https://www.roiwk.cn/post/umeng-openapi/</guid><description>简介 一个简单,好用的友盟open-api的包&amp;hellip; 封装了友盟官方open-api的sdk, 官方sdk版本1.1.4 umeng官方文</description></item></channel></rss>
